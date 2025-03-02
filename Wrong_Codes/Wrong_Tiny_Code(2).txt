@@ -1,0 +1,6 @@
+{ Wrong Tiny Code (2) }
+{Start code} 
+fact := 1;
+x := 5;
+write fact; {Wrong in Semicolon}
+{End Code}

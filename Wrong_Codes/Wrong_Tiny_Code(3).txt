@@ -1,0 +1,9 @@
+{ Wrong Tiny Code (3) }
+{Start code} 
+fact := 1 {Missing Semicolon}
+x := 5;
+
+if x = 0 then {Wrong in Assign operator}
+    fact := 1;
+end
+write fact {End Code}

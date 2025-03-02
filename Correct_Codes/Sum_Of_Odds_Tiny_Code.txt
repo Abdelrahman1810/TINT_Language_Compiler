@@ -1,0 +1,13 @@
+{ SUM of odd number Tiny Code}
+
+{Start code} read n;
+x := 1; 
+sum := 0;
+repeat
+    y := x / 2;
+    if (x - ((y / 2) * 2)) = 1 then
+        sum := sum + x
+    end;
+    x := x + 1
+until x < n + 1;
+write sum {End Code}

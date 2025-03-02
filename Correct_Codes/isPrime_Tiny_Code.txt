@@ -1,0 +1,18 @@
+{Primes number from 1 to 100}
+x := 2; 
+repeat
+    isPrime := 1;
+    y := 2; 
+    repeat
+        if y * y < x then
+            if x - (x / y) * y = 0 then
+                isPrime := 0
+            end
+        end;
+        y := y + 1
+    until y * y < x;
+    if isPrime = 1 then
+        write x
+    end;
+    x := x + 1
+until x < 100
