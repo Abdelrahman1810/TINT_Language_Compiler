@@ -37,7 +37,7 @@ To use the TINY compiler:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Abdelrahman1810/TINY_Compiler.git
+   git clone https://github.com/Abdelrahman1810/TINT_Language_Compiler.git
    ```
 
 
